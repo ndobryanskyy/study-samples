@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorOnStart", "CalculatorOnStart\CalculatorOnStart.csproj", "{3154157E-90E8-477F-9B18-094479292507}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CustomDir", "CustomDir\CustomDir.pyproj", "{541722D8-679D-4277-9FC5-FB0FBC26DF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{3154157E-90E8-477F-9B18-094479292507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3154157E-90E8-477F-9B18-094479292507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3154157E-90E8-477F-9B18-094479292507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541722D8-679D-4277-9FC5-FB0FBC26DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541722D8-679D-4277-9FC5-FB0FBC26DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
