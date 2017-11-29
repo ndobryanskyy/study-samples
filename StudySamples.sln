@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requester", "Requester\Requ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleInstance", "SingleInstance\SingleInstance.csproj", "{7B0BF898-E8CD-4571-96EB-4468ECD97834}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexedClipboard", "IndexedClipboard\IndexedClipboard.csproj", "{4152D1E9-D64F-4490-9725-17F2EBE3D147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{7B0BF898-E8CD-4571-96EB-4468ECD97834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B0BF898-E8CD-4571-96EB-4468ECD97834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B0BF898-E8CD-4571-96EB-4468ECD97834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
