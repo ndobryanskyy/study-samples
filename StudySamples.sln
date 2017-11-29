@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleInstance", "SingleIns
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexedClipboard", "IndexedClipboard\IndexedClipboard.csproj", "{4152D1E9-D64F-4490-9725-17F2EBE3D147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCapture", "ScreenCapture\ScreenCapture.csproj", "{E61CEE04-68CB-44ED-A4DC-F1153D02C3B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4152D1E9-D64F-4490-9725-17F2EBE3D147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61CEE04-68CB-44ED-A4DC-F1153D02C3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61CEE04-68CB-44ED-A4DC-F1153D02C3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61CEE04-68CB-44ED-A4DC-F1153D02C3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61CEE04-68CB-44ED-A4DC-F1153D02C3B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
