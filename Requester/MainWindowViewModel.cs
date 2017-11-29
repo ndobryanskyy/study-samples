@@ -24,10 +24,25 @@ namespace Requester
                 .ObservesProperty(() => IsBusy);
         }
 
-        private bool CanPostRequest() =>
-            !IsBusy
-            && !string.IsNullOrWhiteSpace(EndpointUrl)
-            && !string.IsNullOrWhiteSpace(PostData);
+        public ICommand PostRequestCommand { get; }
+
+        public bool IsBusy
+        {
+            get => _isBusy;
+            set => SetProperty(ref _isBusy, value);
+        }
+
+        public string EndpointUrl
+        {
+            get => _endpointUrl;
+            set => SetProperty(ref _endpointUrl, value);
+        }
+
+        public string PostData
+        {
+            get => _postData;
+            set => SetProperty(ref _postData, value);
+        }
 
         private async void PostRequest()
         {
@@ -50,24 +65,9 @@ namespace Requester
             }
         }
 
-        public ICommand PostRequestCommand { get; }
-
-        public bool IsBusy
-        {
-            get => _isBusy;
-            set => SetProperty(ref _isBusy, value);
-        }
-
-        public string EndpointUrl
-        {
-            get => _endpointUrl;
-            set => SetProperty(ref _endpointUrl, value);
-        }
-
-        public string PostData
-        {
-            get => _postData;
-            set => SetProperty(ref _postData, value);
-        }
+        private bool CanPostRequest() =>
+            !IsBusy
+            && !string.IsNullOrWhiteSpace(EndpointUrl)
+            && !string.IsNullOrWhiteSpace(PostData);
     }
 }

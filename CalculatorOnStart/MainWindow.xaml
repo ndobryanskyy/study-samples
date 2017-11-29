@@ -11,8 +11,9 @@
         <TextBlock Text="Implement calculator here"
                    VerticalAlignment="Top" HorizontalAlignment="Left"
                    Margin="10"/>
-        <Button Content="Set startup" Click="SetStartupOnLogin"
-                VerticalAlignment="Bottom" HorizontalAlignment="Right"
-                Margin="10"/>
+        <ToggleButton x:Name="StartupSwitch" Content="Set startup" 
+                      Command="{Binding ToggleStartup}" CommandParameter="{Binding ElementName=StartupSwitch, Path=IsChecked, Mode=OneWay}"
+                      VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                      Margin="10" Padding="4"/>
     </Grid>
 </Window>
